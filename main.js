@@ -679,15 +679,9 @@ controls.maxDistance = 1.2;
 
 
 // ─────────────────────────────────────────────
-// LIGHTING
+// AMBIENT LIGHTING
 // ─────────────────────────────────────────────
-scene.add(new THREE.AmbientLight(0xffffff, 0.0));
-const dirLight01 = new THREE.DirectionalLight(0xffffff, 0.0);
-const dirLight02 = new THREE.DirectionalLight(0xffffff, 0.0);
-dirLight01.position.set(5, 10, 7);
-dirLight02.position.set(-10, 10, 7);
-scene.add(dirLight01);
-scene.add(dirLight02);
+scene.add(new THREE.AmbientLight(0xffffff, 5.0));
 
 // ─────────────────────────────────────────────
 // ENVIRONMENT

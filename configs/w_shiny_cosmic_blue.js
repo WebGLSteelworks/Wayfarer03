@@ -22,9 +22,10 @@ export const MODEL_CONFIG = {
 	},
 
 	glass: {
+		//color: [0.05, 0.06, 0.10],
 		color: [0.05, 0.06, 0.10],
 		roughness: 0.1,
-		metalness: 0.5,
+		metalness: 0.4,
 		opacity: 0.9, 
 		
 		animate: true,
